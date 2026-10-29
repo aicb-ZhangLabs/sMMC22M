@@ -1,0 +1,78 @@
+{
+  "release_version": "2026-10-28",
+  "brand": "sMMC-40M",
+  "sample_acquisitions": 124,
+  "candidate_objects": 46284626,
+  "gene_positive_observations": 38472192,
+  "gene_positive_cells": 36431039,
+  "gene_positive_nuclei": 2041153,
+  "gene_positive_by_platform": {
+    "HD": 13660756,
+    "Xenium": 24811436
+  },
+  "acquisitions_by_platform": {
+    "Xenium": 71,
+    "HD": 53
+  },
+  "categories": [
+    "Arabidopsis",
+    "Bone",
+    "Bone Marrow",
+    "Brain",
+    "Breast",
+    "Cervix",
+    "Colon",
+    "Embryo",
+    "Head",
+    "Heart",
+    "Kidney",
+    "Liver",
+    "Lung",
+    "Lymph Node",
+    "Ovary",
+    "Pancreas",
+    "Prostate",
+    "Skin",
+    "Small Intestine",
+    "Soybean",
+    "Tonsil",
+    "Whole Organism",
+    "Xenograft"
+  ],
+  "he_cell_pairs": 32682585,
+  "he_cell_complete_224px": 32682304,
+  "source_release_manifest_sha256": "f4f20ea1a5acfe660f1988184337921a92e1f5fcb519609324bfb921cfbda460",
+  "raw_species_labels": [
+    "Arabidopsis thaliana",
+    "Human",
+    "Mouse",
+    "Mouse; Human",
+    "Rattus norvegicus",
+    "Rhesus macaque",
+    "Soybean",
+    "Zebrafish (Danio rerio)",
+    "mouse"
+  ],
+  "gene_positive_by_raw_species_label": {
+    "Arabidopsis thaliana": 433,
+    "Human": 30873911,
+    "Mouse": 5476283,
+    "Mouse; Human": 305932,
+    "Rattus norvegicus": 122845,
+    "Rhesus macaque": 218206,
+    "Soybean": 36913,
+    "Zebrafish (Danio rerio)": 82607,
+    "mouse": 1355062
+  },
+  "species": [
+    "Arabidopsis thaliana",
+    "Human",
+    "Mouse",
+    "Rattus norvegicus",
+    "Rhesus macaque",
+    "Soybean",
+    "Zebrafish (Danio rerio)"
+  ],
+  "species_normalization": "mouse is Mouse; Mouse; Human denotes mixed human/mouse material and introduces no additional species. Counts remain on raw source labels to avoid assigning mixed observations to one species.",
+  "species_count": 7
+}

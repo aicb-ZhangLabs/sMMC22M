@@ -1,0 +1,10 @@
+name: smcc-benchmark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - libstdcxx-ng
+  - openslide=4.0.0
+  - pip:
+    - -r requirements-image.txt

@@ -1,0 +1,73 @@
+[
+  {
+    "source_material_group_id": "SMG-OVARY-ADJACENT-2025",
+    "sample_ids": [
+      "HD-005",
+      "HD-045",
+      "XE-019",
+      "XE-053"
+    ],
+    "relation": "adjacent sections of linked ovarian tissue source",
+    "source_url": "https://www.10xgenomics.com/datasets/xenium-comparison-fresh-frozen-human-ovarian-cancer",
+    "evidence_excerpt": "The Visium HD and HD3prime datasets were generated from tissue sections adjacent to those for the Xenium datasets.",
+    "status": "curated_source_material_relationship",
+    "not_a_public_donor_id": true,
+    "cross_page_unrelatedness_not_established": true
+  },
+  {
+    "source_material_group_id": "SMG-LUNG-POSTXENIUM-2024",
+    "sample_ids": [
+      "HD-010",
+      "HD-013",
+      "HD-014",
+      "HD-031",
+      "XTNL005",
+      "XE-017"
+    ],
+    "relation": "serial-section / post-Xenium comparison material",
+    "source_url": "https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-human-lung-cancer-post-xenium-expt",
+    "evidence_excerpt": "Visium HD post-Xenium workflow samples were compared to controls using 5um FFPE serial sections; corresponding Xenium experiments linked.",
+    "status": "curated_source_material_relationship",
+    "not_a_public_donor_id": true,
+    "cross_page_unrelatedness_not_established": true
+  },
+  {
+    "source_material_group_id": "SMG-MOUSE-BRAIN-REPLICATES",
+    "sample_ids": [
+      "XE-043",
+      "XE-044"
+    ],
+    "relation": "adjacent sections from one source mouse",
+    "source_url": "https://www.10xgenomics.com/datasets/fresh-frozen-mouse-brain-replicates-1-standard",
+    "evidence_excerpt": "Tissue from a C57BL/6 mouse. Three adjacent10um sections were placed on the same slide.",
+    "status": "curated_source_material_relationship",
+    "not_a_public_donor_id": true,
+    "cross_page_unrelatedness_not_established": true
+  },
+  {
+    "source_material_group_id": "SMG-BREAST-IDC-LARGE",
+    "sample_ids": [
+      "HBES040",
+      "XE-031"
+    ],
+    "relation": "replicate sections from one reported breast tumor mass",
+    "source_url": "https://www.10xgenomics.com/datasets/ffpe-human-breast-using-the-entire-sample-area-1-standard",
+    "evidence_excerpt": "5um sections from a human breast resected tumor mass; replicate results; source donorCount1.",
+    "status": "curated_source_material_relationship",
+    "not_a_public_donor_id": true,
+    "cross_page_unrelatedness_not_established": true
+  },
+  {
+    "source_material_group_id": "SMG-BREAST-ILC-PANELS",
+    "sample_ids": [
+      "XE-033",
+      "XE-034"
+    ],
+    "relation": "same ILC tissue experiment with base vs add-on panel",
+    "source_url": "https://www.10xgenomics.com/datasets/ffpe-human-breast-with-pre-designed-panel-1-standard",
+    "evidence_excerpt": "The same experiment was also run with a custom add-on panel of100genes; the second tumor mass is invasive lobular carcinoma.",
+    "status": "curated_source_material_relationship",
+    "not_a_public_donor_id": true,
+    "cross_page_unrelatedness_not_established": true
+  }
+]

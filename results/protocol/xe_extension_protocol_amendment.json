@@ -1,0 +1,123 @@
+{
+  "version": "panel-fallback-v1",
+  "trigger": "jointly measured gene-ID intersection <50; determined before any evaluation result",
+  "policy": "Preserve organ/species shared HVGs when possible; otherwise select training-only HVGs within each exact measured panel. Never zero-fill unmeasured genes or discard acquisitions.",
+  "fallbacks": [
+    {
+      "organ": "Skin",
+      "species": "Human",
+      "all_samples": [
+        "HSDX009",
+        "HSDX009_2",
+        "HSPD012",
+        "PDHS029",
+        "XE-070"
+      ],
+      "n_jointly_measured_genes": 47,
+      "panel_groups": {
+        "073873294a48262b2081cd54543664912a241223a5d05a4e6fff3c9ead8a5960": [
+          "HSDX009",
+          "HSDX009_2"
+        ],
+        "578df6b9e6175415c403566165b7409d46e122e2ea7363c58763d2bc6ca8d3de": [
+          "XE-070"
+        ],
+        "94925c97430cf88c6c60334ee56b8b3c49462c9b1583fff2f498b4c32047cea4": [
+          "HSPD012"
+        ],
+        "c564c250c09b0fba96049903febd342100dc470c221a889f68990f99786df4c2": [
+          "PDHS029"
+        ]
+      }
+    }
+  ],
+  "groups": [
+    {
+      "organ": "Bone",
+      "species": "Human",
+      "panel_group": "shared",
+      "samples": [
+        "XE-056"
+      ],
+      "common_genes": 477
+    },
+    {
+      "organ": "Bone",
+      "species": "Mouse",
+      "panel_group": "shared",
+      "samples": [
+        "MBDC037",
+        "XE-077",
+        "XE-078"
+      ],
+      "common_genes": 479
+    },
+    {
+      "organ": "Bone Marrow",
+      "species": "Human",
+      "panel_group": "shared",
+      "samples": [
+        "XE-055"
+      ],
+      "common_genes": 477
+    },
+    {
+      "organ": "Cervix",
+      "species": "Human",
+      "panel_group": "shared",
+      "samples": [
+        "HCCW027"
+      ],
+      "common_genes": 5101
+    },
+    {
+      "organ": "Skin",
+      "species": "Human",
+      "panel_group": "073873294a48262b2081cd54543664912a241223a5d05a4e6fff3c9ead8a5960",
+      "samples": [
+        "HSDX009",
+        "HSDX009_2"
+      ],
+      "common_genes": 377
+    },
+    {
+      "organ": "Skin",
+      "species": "Human",
+      "panel_group": "578df6b9e6175415c403566165b7409d46e122e2ea7363c58763d2bc6ca8d3de",
+      "samples": [
+        "XE-070"
+      ],
+      "common_genes": 282
+    },
+    {
+      "organ": "Skin",
+      "species": "Human",
+      "panel_group": "94925c97430cf88c6c60334ee56b8b3c49462c9b1583fff2f498b4c32047cea4",
+      "samples": [
+        "HSPD012"
+      ],
+      "common_genes": 382
+    },
+    {
+      "organ": "Skin",
+      "species": "Human",
+      "panel_group": "c564c250c09b0fba96049903febd342100dc470c221a889f68990f99786df4c2",
+      "samples": [
+        "PDHS029"
+      ],
+      "common_genes": 5006
+    },
+    {
+      "organ": "Whole Organism",
+      "species": "Mouse",
+      "panel_group": "shared",
+      "samples": [
+        "WMPP017",
+        "WMPW025"
+      ],
+      "common_genes": 145
+    }
+  ],
+  "config_signature": "d434d348d127ea53fc4741a4408dcfec0eff8a098310663f96df7420501c9167",
+  "selector_sha256": "1e53be2ba180161bf7520cb8f3838d0440da070eea6893c1fa8ace5ffd7e4b44"
+}

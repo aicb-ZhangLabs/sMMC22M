@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-10-29",
+  "code_repository": "https://github.com/aicb-ZhangLabs/sMMC22M",
+  "data_release_version": "2026-10-28",
+  "data_status": "frozen_local; public data upload not performed",
+  "public_hugging_face_dataset_id": null,
+  "model_weights_in_git": false,
+  "full_benchmark_assets_in_git": false,
+  "asset_package": "The complete versioned data release contains benchmark/ with caches, exact membership Parquet files, targets and original predictions."
+}

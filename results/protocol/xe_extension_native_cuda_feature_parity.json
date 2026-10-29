@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "cells": 32,
+  "minimum_feature_cosine": 0.9999996259432667,
+  "maximum_relative_L2": 0.0008649359924074293,
+  "maximum_absolute_difference": 0.002618074417114258,
+  "reference": "Frozen CONCH cuDNN, RTX3090, float16 autocast",
+  "retry": "Same weights/crops/transform, native CUDA convolution, A6000, float16 autocast",
+  "output_cell_ID_order_identical": true,
+  "new_read_order": "y,x; scatter vectors back into original ID order"
+}

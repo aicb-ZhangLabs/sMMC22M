@@ -1,0 +1,66 @@
+{
+  "scope": "124 acquisition records; no donor independence inferred",
+  "branches": {
+    "HD/H&E/cell": {
+      "sample_acquisitions": 49,
+      "candidate_objects": 18765683,
+      "nonzero_feature_observations": 11619603,
+      "gene_positive_observations": 11619603
+    },
+    "HD/IF/nucleus": {
+      "sample_acquisitions": 4,
+      "candidate_objects": 2635758,
+      "nonzero_feature_observations": 2041153,
+      "gene_positive_observations": 2041153
+    },
+    "Xenium/H&E/cell": {
+      "sample_acquisitions": 56,
+      "candidate_objects": 21132812,
+      "nonzero_feature_observations": 21078920,
+      "gene_positive_observations": 21064472
+    },
+    "Xenium/DAPI/cell": {
+      "sample_acquisitions": 15,
+      "candidate_objects": 3750373,
+      "nonzero_feature_observations": 3746978,
+      "gene_positive_observations": 3746964
+    }
+  },
+  "sample_metadata_nonnull_counts": {
+    "age_value": 34,
+    "sex": 41,
+    "tumor_stage": 24,
+    "tumor_grade": 16,
+    "receptor_status": 12,
+    "donor_id_public": 1,
+    "study_id": 13,
+    "source_material_group_id": 16
+  },
+  "known_material_groups": 5,
+  "samples_in_material_groups": 16,
+  "unique_reporting_categories": [
+    "Arabidopsis",
+    "Bone",
+    "Bone Marrow",
+    "Brain",
+    "Breast",
+    "Cervix",
+    "Colon",
+    "Embryo",
+    "Head",
+    "Heart",
+    "Kidney",
+    "Liver",
+    "Lung",
+    "Lymph Node",
+    "Ovary",
+    "Pancreas",
+    "Prostate",
+    "Skin",
+    "Small Intestine",
+    "Soybean",
+    "Tonsil",
+    "Whole Organism",
+    "Xenograft"
+  ]
+}

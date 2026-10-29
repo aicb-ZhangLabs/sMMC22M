@@ -1,0 +1,20 @@
+{
+  "release_version": "2026-10-28",
+  "schema_version": "2.0.0",
+  "status": "frozen_local",
+  "frozen_at_utc": "2026-10-28T18:41:11.231026+00:00",
+  "sample_acquisitions": 124,
+  "gene_positive_observations": 38472192,
+  "nonzero_feature_observations": 38486654,
+  "candidate_objects": 46284626,
+  "categories": 23,
+  "HD_samples": 53,
+  "Xenium_samples": 71,
+  "samples_file": "metadata/samples.parquet",
+  "eligibility": "metadata/eligibility",
+  "benchmark_entry": "benchmark/smcc_benchmark.py",
+  "source_pair_repair": [
+    "HLDX010"
+  ],
+  "public_remote_upload_performed": false
+}

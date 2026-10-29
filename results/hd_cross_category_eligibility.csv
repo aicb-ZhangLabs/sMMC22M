@@ -1,0 +1,19 @@
+organ,n_total_acquisitions,n_eligible_acquisitions,eligible_species,excluded_sample_ids
+Brain,6,5,Mouse,HD-006
+Breast,5,5,Human,
+Colon,3,3,Human,
+Embryo,3,3,Mouse,
+Head,1,0,,HD-036
+Heart,1,0,,HD-046
+Kidney,4,2,Mouse,HD-035;HD-040
+Liver,2,0,,HD-019;HD-023
+Lung,6,5,Human,HD-038
+Lymph Node,2,2,Human,
+Ovary,4,3,Human,HD-002
+Pancreas,3,3,Human,
+Plant (Arabidopsis),1,0,,HD-029
+Plant (Soybean),1,0,,HD-039
+Prostate,1,0,,HD-032
+Small Intestine,1,0,,HD-022
+Tonsil,3,3,Human,
+Xenograft,1,0,,HD-026

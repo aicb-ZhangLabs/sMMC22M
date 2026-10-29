@@ -1,0 +1,5 @@
+model,n_categories,aggregation,pearson_gene_macro,pearson_gene_macro_n_valid_categories,spearman_gene_macro,spearman_gene_macro_n_valid_categories,pearson_cell_macro,pearson_cell_macro_n_valid_categories,f1_gene_macro,f1_gene_macro_n_valid_categories,r2_gene_macro,r2_gene_macro_n_valid_categories,rmse_log1p,rmse_log1p_n_valid_categories
+image,18,equal category mean after equal sample and equal fold means,0.3645847480982,18,0.33327380639913984,18,0.4445189761882678,18,0.4114365138561102,18,-0.08996752985922601,18,0.4581881227178706,18
+coordinate,18,equal category mean after equal sample and equal fold means,0.05070571829283801,18,0.046448390184429436,18,0.3455223535304384,18,0.2571439943977957,18,-0.706049719557014,18,0.5858328160519402,18
+spatial_knn,18,equal category mean after equal sample and equal fold means,0.05583861652808686,18,0.05305042538964491,18,0.32905533970012746,18,0.2871417860438396,18,-0.7681170363534277,18,0.5843912969653805,18
+train_mean,18,equal category mean after equal sample and equal fold means,,0,,0,0.4004726656240607,18,0.22427232116255333,18,-0.15959709508399,18,0.5425627572392977,18

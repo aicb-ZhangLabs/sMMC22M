@@ -1,0 +1,62 @@
+[
+  {
+    "track": "hd18",
+    "platform": "HD",
+    "folds": 196,
+    "reference_prediction_packets": 196,
+    "acquisitions": 49,
+    "primary_gene_count": 50,
+    "protocol": "training-only organ/species/fold HVGs",
+    "notes": "HD052 mixed TMA auxiliary, excluded from category means",
+    "reconstructed_prediction_packets": 0,
+    "metric_dtype": "float32"
+  },
+  {
+    "track": "hd_cross",
+    "platform": "HD",
+    "folds": 174,
+    "reference_prediction_packets": 310,
+    "acquisitions": 34,
+    "primary_gene_count": 50,
+    "protocol": "archived fold-specific protocol; see folds/config/source",
+    "notes": "",
+    "reconstructed_prediction_packets": 0,
+    "metric_dtype": "float64"
+  },
+  {
+    "track": "xenium5",
+    "platform": "Xenium",
+    "folds": 52,
+    "reference_prediction_packets": 52,
+    "acquisitions": 13,
+    "primary_gene_count": 50,
+    "protocol": "training-only organ/species/fold HVGs",
+    "notes": "",
+    "reconstructed_prediction_packets": 0,
+    "metric_dtype": "float32"
+  },
+  {
+    "track": "xenium_legacy",
+    "platform": "Xenium",
+    "folds": 120,
+    "reference_prediction_packets": 120,
+    "acquisitions": 30,
+    "primary_gene_count": 50,
+    "protocol": "archived fold-specific protocol; see folds/config/source",
+    "notes": "historical acquisition cache; HLDX010 invalid and excluded",
+    "reconstructed_prediction_packets": 0,
+    "metric_dtype": "float32"
+  },
+  {
+    "track": "xenium_legacy_cross",
+    "platform": "Xenium",
+    "folds": 54,
+    "reference_prediction_packets": 18,
+    "acquisitions": 18,
+    "primary_gene_count": 50,
+    "protocol": "archived fold-specific protocol; see folds/config/source",
+    "notes": "historical acquisition cache; HLDX010 invalid and excluded",
+    "reconstructed_prediction_packets": 36,
+    "metric_dtype": "float32"
+  }
+]

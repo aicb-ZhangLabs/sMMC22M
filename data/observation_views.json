@@ -1,0 +1,31 @@
+{
+  "HD_cells": {
+    "glob": "HD/metadata/cells/*.parquet",
+    "path_base": "HD"
+  },
+  "HD_nuclei": {
+    "glob": "HD/metadata/nuclei/*.parquet",
+    "path_base": "HD"
+  },
+  "Xenium_cells": {
+    "glob": "Xenium/metadata/cells/*.parquet",
+    "path_base": "Xenium"
+  },
+  "sample_join_keys": [
+    "sample_id"
+  ],
+  "observation_join_keys": [
+    "sample_id",
+    "cell_id"
+  ],
+  "cell_platform_aliases": {
+    "Visium HD": "HD",
+    "HD": "HD",
+    "Xenium": "Xenium"
+  },
+  "qualified_sample_join_keys_after_alias_normalization": [
+    "platform",
+    "sample_id"
+  ],
+  "rows": "All native/segmentation candidates. Use expression_available/h5ad_row and gene_positive eligibility before selecting molecular observations."
+}

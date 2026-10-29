@@ -1,0 +1,340 @@
+{
+  "release_version": "2026-10-28",
+  "release_manifest_sha256": "f4f20ea1a5acfe660f1988184337921a92e1f5fcb519609324bfb921cfbda460",
+  "files": [
+    {
+      "source": "benchmark/smcc_benchmark.py",
+      "published": "benchmark/smcc_benchmark.py",
+      "operation": "Scientific functions retained; public asset-path/CLI handling and synthetic demo added. protocol() imports the bundled unchanged evaluator.",
+      "source_sha256": "cc00cbeda8f81d25757a4393ec4f4cf3df36f78edd46d40174411b247d188f59"
+    },
+    {
+      "source": "benchmark/pipeline.py",
+      "published": "benchmark/pipeline.py",
+      "operation": "byte-identical copy",
+      "sha256": "513e488cfd00855c4260d194e5dfa0e74483d577ac2e5ab6e2598fc54f360483"
+    },
+    {
+      "source": "benchmark/image_reader.py",
+      "published": "benchmark/image_reader.py",
+      "operation": "byte-identical copy",
+      "sha256": "f48e3c964097d51a1ea0aeeaa74bbbf226721da839f7d8ea017e65273a628697"
+    },
+    {
+      "source": "benchmark/tracks.json",
+      "published": "benchmark/tracks.json",
+      "operation": "byte-identical copy",
+      "sha256": "25ad068e233019479c4bcc242d9dc3d7dd7d961dd28f6a5a848064a398c6f092"
+    },
+    {
+      "source": "benchmark/requirements.txt",
+      "published": "benchmark/requirements.txt",
+      "operation": "byte-identical copy",
+      "sha256": "874ffa5c83d4ea0100e57dd6dfd527e053a15d5be9dce6ee1b8cbc253f2e8c1d"
+    },
+    {
+      "source": "benchmark/requirements-cpu.txt",
+      "published": "benchmark/requirements-cpu.txt",
+      "operation": "byte-identical copy",
+      "sha256": "874ffa5c83d4ea0100e57dd6dfd527e053a15d5be9dce6ee1b8cbc253f2e8c1d"
+    },
+    {
+      "source": "benchmark/requirements-image.txt",
+      "published": "benchmark/requirements-image.txt",
+      "operation": "byte-identical copy",
+      "sha256": "fc4c394e0545e458114b842a61dadef83cfc2dda72d89631aec6c1086949c2f0"
+    },
+    {
+      "source": "benchmark/requirements-read.txt",
+      "published": "benchmark/requirements-read.txt",
+      "operation": "byte-identical copy",
+      "sha256": "5e40be43835813406c8b1246aa84ec430a94e12580e49acb25bba39e1a9775ac"
+    },
+    {
+      "source": "benchmark/requirements-encoder.txt",
+      "published": "benchmark/requirements-encoder.txt",
+      "operation": "byte-identical copy",
+      "sha256": "e8ed388483178ac59dcb3e8904d76446699bf10f152d43aa2fd6afbddff96158"
+    },
+    {
+      "source": "benchmark/requirements-legacy.txt",
+      "published": "benchmark/requirements-legacy.txt",
+      "operation": "byte-identical copy",
+      "sha256": "90d8b400bfb72ffa862c8938f73cb60b80357e9270d57b5287a5fe2141d642c0"
+    },
+    {
+      "source": "benchmark/environment.yml",
+      "published": "benchmark/environment.yml",
+      "operation": "byte-identical copy",
+      "sha256": "90ca1f95066e5ff12167ecfba31ee11c6e1d17c1e0e38d77adcf878cde65767a"
+    },
+    {
+      "source": "benchmark/frozen/evaluate_spatial.py",
+      "published": "benchmark/frozen/evaluate_spatial.py",
+      "operation": "byte-identical copy",
+      "sha256": "f35203a596e600523e33a808b17293d0b1c37da3c6ff46cac13d2dccb2adff09"
+    },
+    {
+      "source": "benchmark/frozen/evaluate_cross_sample.py",
+      "published": "benchmark/frozen/evaluate_cross_sample.py",
+      "operation": "byte-identical copy",
+      "sha256": "64b3d584f0a0325a36a5c88ea2acb82a8c43c2ca91ab4701c72b3011bf1f9c20"
+    },
+    {
+      "source": "benchmark/frozen/image_reader.py",
+      "published": "benchmark/frozen/image_reader.py",
+      "operation": "byte-identical copy",
+      "sha256": "93f682f37f74c504893cfc6f264417173a8ea9340133e68e5c5fe97462a76193"
+    },
+    {
+      "source": "benchmark/frozen/__init__.py",
+      "published": "benchmark/frozen/__init__.py",
+      "operation": "byte-identical copy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "benchmark/provenance/hd_cross_conditional_intervals/code/cross_sample_interval_kernel.py",
+      "published": "benchmark/intervals/cross_sample_interval_kernel.py",
+      "operation": "byte-identical copy",
+      "sha256": "cabb91b5aa363a19221fb408bc0130045f5a33e5a3317ae841163786f4556159"
+    },
+    {
+      "source": "benchmark/metadata/source_material_relationships.json",
+      "published": "benchmark/metadata/source_material_relationships.json",
+      "operation": "byte-identical copy",
+      "sha256": "c5c147cbf8b305efaa6d77050c5c1ec92bc1e6d9917de5cd26c0cc7d29606969"
+    },
+    {
+      "source": "benchmark/metadata/source_material_relationships.csv",
+      "published": "benchmark/metadata/source_material_relationships.csv",
+      "operation": "byte-identical copy",
+      "sha256": "4e0dafebd0fce59f2c69e29f87caf2f29609e7c22393cb039cba6c946b46281c"
+    },
+    {
+      "source": "benchmark/folds.json",
+      "published": "benchmark/plans/folds.json",
+      "operation": "JSON reserialization only",
+      "source_sha256": "b6f54376797906082932856b912360aab84faaee76cc5618c2f7280c18d2ef21"
+    },
+    {
+      "source": "benchmark/prediction_index.json",
+      "published": "benchmark/plans/prediction_index.json",
+      "operation": "JSON reserialization only",
+      "source_sha256": "7bc487d53eb2867855c85a669d89714450276d0f45f0bf23bb679795a016eb06"
+    },
+    {
+      "source": "benchmark/reconstructed_prediction_index.json",
+      "published": "benchmark/plans/reconstructed_prediction_index.json",
+      "operation": "JSON reserialization only",
+      "source_sha256": "8afde3ff7d5452c4b49443e7e1c466aa08157a98c8a5c26b8e547faa1fd2e28b"
+    },
+    {
+      "source": "benchmark/reference/tables/hd18_auxiliary_sample.csv",
+      "published": "results/hd18_auxiliary_sample.csv",
+      "operation": "byte-identical copy",
+      "sha256": "3fad6cf860dbc4f2c7b5ef41030f45ff941917d2ca2f39b1123f9cfbef2ac730"
+    },
+    {
+      "source": "benchmark/reference/tables/hd18_full_results.csv",
+      "published": "results/hd18_full_results.csv",
+      "operation": "byte-identical copy",
+      "sha256": "a0117aaed9bd7440acc3ea598db1dca5dec1da5bd692f3e0773e903793c36bfa"
+    },
+    {
+      "source": "benchmark/reference/tables/hd18_macro.csv",
+      "published": "results/hd18_macro.csv",
+      "operation": "byte-identical copy",
+      "sha256": "843b2e244f78bff4cb110f065f6d0abf1ad3d04edb6ae32853f133836b85c72b"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_by_category.csv",
+      "published": "results/hd_cross_by_category.csv",
+      "operation": "byte-identical copy",
+      "sha256": "1aaf4d4f984af8cf6cf6a0d0e03f22b3c6774e9720b04dfaa658e35369b86f1c"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_by_sample.csv",
+      "published": "results/hd_cross_by_sample.csv",
+      "operation": "byte-identical copy",
+      "sha256": "263ff3c3c8ec82ea580b77602129eb24fb3cb6734073f590f98e6cd9980fd14b"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_category_eligibility.csv",
+      "published": "results/hd_cross_category_eligibility.csv",
+      "operation": "byte-identical copy",
+      "sha256": "ce2d1fd8e1f64f47599514692182075bf47d14c34ca687d077179b3d572cc7f5"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_cross_sample_category_results.csv",
+      "published": "results/hd_cross_cross_sample_category_results.csv",
+      "operation": "byte-identical copy",
+      "sha256": "86d6b23ed0fc35ed88858002e672db6218f39692da68ad34a69ea1e49d3203fa"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_cross_sample_macro.csv",
+      "published": "results/hd_cross_cross_sample_macro.csv",
+      "operation": "byte-identical copy",
+      "sha256": "c85f2dcca471ee212575eee35f1295f23feb50eda626d8db7d4a66003d4038cb"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_fold_metrics.csv",
+      "published": "results/hd_cross_fold_metrics.csv",
+      "operation": "byte-identical copy",
+      "sha256": "a30e2bd3c59dddb294b5abbaeb08e9b87e149c70252cdeb4e526cc3634aa5bbb"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_gene_metric_support.csv",
+      "published": "results/hd_cross_gene_metric_support.csv",
+      "operation": "byte-identical copy",
+      "sha256": "6179d09018e084d6beb67fc125ef7b50806962a9ea8a6b505b53e089650d5ca4"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_matched_by_category.csv",
+      "published": "results/hd_cross_matched_by_category.csv",
+      "operation": "byte-identical copy",
+      "sha256": "c6d144ace0019725db050e09c33075554890d23d29d198e55e7dbacff97f2542"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_matched_by_sample.csv",
+      "published": "results/hd_cross_matched_by_sample.csv",
+      "operation": "byte-identical copy",
+      "sha256": "3cab3a287cb8d7abec16559433876daae2636275ae3a7a753fee14c479ae6a0a"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_matched_macro.csv",
+      "published": "results/hd_cross_matched_macro.csv",
+      "operation": "byte-identical copy",
+      "sha256": "d5cbb2d0af40c86da9e462fa91cf915ec824baa83a15f02d1cfb47421c5ecda6"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_source_page_by_category.csv",
+      "published": "results/hd_cross_source_page_by_category.csv",
+      "operation": "byte-identical copy",
+      "sha256": "fb7fc0f78b977ce9690a512b1fbd736d64a6932b0e9abaa96627249a7c165f97"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_source_page_by_sample.csv",
+      "published": "results/hd_cross_source_page_by_sample.csv",
+      "operation": "byte-identical copy",
+      "sha256": "45dc2ff22f4749eebaee1497989bbebfca42e7a5205d085ac3ec14ee00120d5b"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_source_page_coverage.csv",
+      "published": "results/hd_cross_source_page_coverage.csv",
+      "operation": "byte-identical copy",
+      "sha256": "d48e38dd492ddcdd1cd4370d49dad29dc912dedbb083af33d2498e117d9442e9"
+    },
+    {
+      "source": "benchmark/reference/tables/hd_cross_source_page_sensitivity.csv",
+      "published": "results/hd_cross_source_page_sensitivity.csv",
+      "operation": "byte-identical copy",
+      "sha256": "5f9cf41611969c0e877384c41678161c7f30ecca8c2b00a6298cdb48fd2704a6"
+    },
+    {
+      "source": "benchmark/reference/tables/legacy_xenium_cross_primary.csv",
+      "published": "results/legacy_xenium_cross_primary.csv",
+      "operation": "byte-identical copy",
+      "sha256": "97dbb7f5cf3508b1f3234119eea562ac7c0c28b928598b8136c3b82a13aced07"
+    },
+    {
+      "source": "benchmark/reference/tables/legacy_xenium_within_primary.csv",
+      "published": "results/legacy_xenium_within_primary.csv",
+      "operation": "byte-identical copy",
+      "sha256": "19935903205f44e18ac337e9a4c63a535d5fd095bae6e208917bd7db4c29979c"
+    },
+    {
+      "source": "benchmark/reference/tables/printed_legacy_category_values.csv",
+      "published": "results/printed_legacy_category_values.csv",
+      "operation": "byte-identical copy",
+      "sha256": "15db5163fa5f41c38dc6c38eaae8d22dc97ce63316f0a3809debb00f4d5ec48f"
+    },
+    {
+      "source": "benchmark/reference/tables/sample_category_mapping.csv",
+      "published": "results/sample_category_mapping.csv",
+      "operation": "byte-identical copy",
+      "sha256": "ae3ebec3695c015d0bc64b8d30bd1c61afef58e2c9d94c11c0aa4e51c1e7e306"
+    },
+    {
+      "source": "benchmark/reference/tables/xe_extension_23_category_results.csv",
+      "published": "results/xe_extension_23_category_results.csv",
+      "operation": "byte-identical copy",
+      "sha256": "c2eb9edc54fdf4dfccfe3a634696fc60a6074e4e81fe1647c54e7a0861d39d99"
+    },
+    {
+      "source": "benchmark/reference/tables/xe_extension_by_category.csv",
+      "published": "results/xe_extension_by_category.csv",
+      "operation": "byte-identical copy",
+      "sha256": "30a32b478e804f04d97650abf14fe3ee26651d7443b301bb1cb6cf75eacda6dc"
+    },
+    {
+      "source": "benchmark/reference/tables/xe_extension_by_sample.csv",
+      "published": "results/xe_extension_by_sample.csv",
+      "operation": "byte-identical copy",
+      "sha256": "20ae52a9c4a1f292eb68d139ab187ceae08b95dace2a33b33c26227835e27f3c"
+    },
+    {
+      "source": "benchmark/reference/tables/xe_extension_category_macro_means.csv",
+      "published": "results/xe_extension_category_macro_means.csv",
+      "operation": "byte-identical copy",
+      "sha256": "b9bab7e4870fafa5ecf720a766c83253bb8902df5ae9bf8ae08a3b8e9f50b3eb"
+    },
+    {
+      "source": "metadata/schema.json",
+      "published": "data/schema.json",
+      "operation": "byte-identical copy",
+      "sha256": "d2947bc7a844bb8c28882fcc1bd8ac5c6c0c7752bea32c279d6c627d1f82e244"
+    },
+    {
+      "source": "metadata/coverage_summary.json",
+      "published": "data/coverage_summary.json",
+      "operation": "byte-identical copy",
+      "sha256": "036e93cdf0a3eae7eb82486d23d0c6b91550da85ecbfb6d8fcc55f66f4f1eca3"
+    },
+    {
+      "source": "metadata/observation_views.json",
+      "published": "data/observation_views.json",
+      "operation": "byte-identical copy",
+      "sha256": "1f8ea495ebf432a65424f3672828402f1930156689619718cf62a333ccc86ba1"
+    },
+    {
+      "source": "release.json",
+      "published": "data/release.json",
+      "operation": "byte-identical copy",
+      "sha256": "509ec77d2c777625d3e4ab489fb5ab1dc98e3aa70c158a958de8d6f0ffc87b53"
+    },
+    {
+      "source": "metadata/samples.parquet",
+      "published": "data/sample_catalog.csv",
+      "operation": "Explicit public column projection; list-valued category field encoded as JSON"
+    },
+    {
+      "source": "qc/tables/sample_qc_compact.csv",
+      "published": "data/qc/sample_qc_compact.csv",
+      "operation": "byte-identical copy",
+      "sha256": "5816cebaa14c49d84c33848377c723bacc97a026cd9f64f2feca755c97ed3b44"
+    },
+    {
+      "source": "qc/tables/group_summary.csv",
+      "published": "data/qc/group_summary.csv",
+      "operation": "byte-identical copy",
+      "sha256": "8784648a9b18ade8ae16a2762e11402ef32672a8da6526a8312134775e69045a"
+    },
+    {
+      "source": "qc/tables/sample_gene_panels.csv",
+      "published": "data/qc/sample_gene_panels.csv",
+      "operation": "byte-identical copy",
+      "sha256": "185de73e1a8b57bb7b2d306c49feabade913524e52bde1301f97468445211e3d"
+    },
+    {
+      "source": "qc/figures/01_object_counts.png",
+      "published": "assets/qc_object_counts.png",
+      "operation": "byte-identical copy",
+      "sha256": "c3f8322b98aa198e26aa4aa0e79d18dc67c01615a2b0358729fcef7517fd5a03"
+    }
+  ],
+  "notes": [
+    "The main image is the user-supplied original PNG, byte-identical.",
+    "Public code adds asset-path resolution and smoke/demo entry points; evaluator kernels remain byte-identical.",
+    "No raw counts, WSI, masks, embeddings, prediction arrays or model weights are uploaded to Git."
+  ]
+}

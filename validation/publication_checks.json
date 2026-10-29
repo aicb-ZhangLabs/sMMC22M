@@ -1,0 +1,236 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-29T19:25:10.818708+00:00",
+  "source_release_version": "2026-10-28",
+  "source_manifest_sha256": "f4f20ea1a5acfe660f1988184337921a92e1f5fcb519609324bfb921cfbda460",
+  "checks": [
+    {
+      "check": "unittest",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 2.836,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "demo",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.741,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "list",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.842,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "missing_assets",
+      "status": "passed",
+      "exit_code": 2,
+      "seconds": 0.779,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "macro_summary",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 0.098,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "replay_hd18",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.901,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "replay_hd_cross",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 2.833,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "replay_xenium5",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.599,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "replay_xenium_legacy",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 2.502,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "replay_xenium_legacy_cross",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 2.8,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "refit_hd18_HD-001_seed0",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 4.101,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "refit_xenium5_XE-055_seed0",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 5.155,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "refit_loso_HD-001",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 9.034,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "prepare_hd18",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.783,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "real_crop_hd18",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.562,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "prepare_xenium5",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.384,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "real_crop_xenium5",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 1.616,
+      "reused_same_unchanged_source": true
+    },
+    {
+      "check": "read_HD-001",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 25.594
+    },
+    {
+      "check": "read_HD-028",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 28.793
+    },
+    {
+      "check": "read_HLDX010",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 6.118
+    },
+    {
+      "check": "read_XE-013",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 25.04
+    },
+    {
+      "check": "local_HD-001",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 8.763
+    },
+    {
+      "check": "local_HLDX010",
+      "status": "passed",
+      "exit_code": 0,
+      "seconds": 12.276
+    },
+    {
+      "check": "known_material_rejection",
+      "status": "passed",
+      "exit_code": 1,
+      "seconds": 2.369
+    },
+    {
+      "check": "superseded_liver_rejection",
+      "status": "passed",
+      "exit_code": 1,
+      "seconds": 0.774
+    },
+    {
+      "check": "immutable_output_rejection",
+      "status": "passed",
+      "exit_code": 2,
+      "seconds": 0.783
+    }
+  ],
+  "refits": [
+    {
+      "fold_id": "hd18_HD-001_seed0",
+      "maximum_absolute_metric_error": 8.326672684688674e-17,
+      "numeric_environment": {
+        "numpy": "1.23.5",
+        "pandas": "1.4.3",
+        "scikit_learn": "1.3.0",
+        "scipy": "1.8.1"
+      }
+    },
+    {
+      "fold_id": "xenium5_XE-055_seed0",
+      "maximum_absolute_metric_error": 9.71445146547012e-17,
+      "numeric_environment": {
+        "numpy": "1.23.5",
+        "pandas": "1.4.3",
+        "scikit_learn": "1.3.0",
+        "scipy": "1.8.1"
+      }
+    },
+    {
+      "fold_id": "loso_HD-001",
+      "maximum_absolute_metric_error": 7.632783294297951e-17,
+      "numeric_environment": {
+        "numpy": "1.23.5",
+        "pandas": "1.4.3",
+        "scikit_learn": "1.3.0",
+        "scipy": "1.8.1"
+      }
+    }
+  ],
+  "unchanged_scientific_functions": [
+    "json_read",
+    "score_float32",
+    "score",
+    "legacy_primary_score",
+    "replay",
+    "cached_sample",
+    "target_columns",
+    "feature_types",
+    "group_map",
+    "group_audit",
+    "refit",
+    "release_example"
+  ],
+  "original_image_byte_identical": true,
+  "published_result_csvs_byte_identical": true,
+  "scope": [
+    "Five selected original packets replayed, one per track; this publication did not replay all 692 packets again.",
+    "Three real predictor refits matched original metrics within 5e-5.",
+    "Four RNA rows prepared per modern track; original source-pipeline GPU checks are inherited, no new GPU encoding.",
+    "Four imaging/object branches read plus two sample-only packages; two real H&E crops.",
+    "Clinical interpretation, full independent biological segmentation accuracy and public dataset downloading are outside these checks."
+  ]
+}
