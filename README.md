@@ -15,13 +15,11 @@ cell/nucleus observations**, **124 acquisitions**, **23 harmonized reporting
 categories**, and **7 source species**. The name “40M” denotes the resource scale;
 it is not an exact count of whole cells.
 
-| Platform and image branch | Acquisitions | Gene-positive observations | Object |
-| --- | ---: | ---: | --- |
-| Visium HD, H&E | 49 | 11,619,603 | Cell |
-| Visium HD, IF | 4 | 2,041,153 | Nucleus |
-| Xenium, H&E | 56 | 21,064,472 | Cell |
-| Xenium, DAPI | 15 | 3,746,964 | Cell |
-| **Total** | **124** | **38,472,192** | **36,431,039 cells + 2,041,153 nuclei** |
+| Platform | Acquisitions | Gene-positive observations |
+| --- | ---: | ---: |
+| Visium HD | 53 | 13,660,756 |
+| Xenium | 71 | 24,811,436 |
+| **Total** | **124** | **38,472,192** |
 
 All **46,284,626 candidates** remain indexed, including candidates without an
 expression-matrix row. The resource has raw integer expression in sample-level
