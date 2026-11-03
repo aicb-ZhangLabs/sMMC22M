@@ -5,14 +5,7 @@
 The frozen data version is **2026-10-28**, schema **2.0.0**. This Git repository
 contains code, documentation, source metadata, and summary results. The full
 versioned data folder is approximately **931.6 GB** in logical size, including
-images, masks, expression, and reproducibility assets. It has been assembled and
-checked locally; **a public data upload has not yet been performed**.
-
-No Hugging Face dataset ID or dataset-download command is provided until the
-actual remote release exists. Original acquisition sources are linked in
-[`sample_catalog.csv`](../data/sample_catalog.csv); upstream downloads alone do
-not contain this resource's processed masks, aggregated RNA, metadata, or frozen
-benchmark partitions. The complete processed package is needed for exact replay.
+images, masks, expression, and reproducibility assets. Download it from [Hugging Face](https://huggingface.co/datasets/zhang-lab/sMCC40M). To read one sample, follow the dataset card’s examples for HD-002 or HHDX011. Source credits and processing notes are in the [license manifest](https://huggingface.co/datasets/zhang-lab/sMCC40M/blob/main/licensing/license_manifest.csv).
 
 The data-side benchmark folder includes approximately 2.93 GB of sampled input
 fixtures, 138 MB of membership Parquet files, original prediction packets, exact

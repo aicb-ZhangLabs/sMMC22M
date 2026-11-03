@@ -2,7 +2,7 @@
 
 **A context-aware resource and benchmark for cell-aligned spatial transcriptomics.**
 
-[Data and release](docs/data.md) · [Benchmark](benchmark/README.md) · [Full results](results/README.md) · [QC](docs/quality_control.md) · [Release notes](CHANGELOG.md)
+[Download on Hugging Face](https://huggingface.co/datasets/zhang-lab/sMCC40M) · [Data and release](docs/data.md) · [Benchmark](benchmark/README.md) · [Full results](results/README.md) · [QC](docs/quality_control.md) · [Release notes](CHANGELOG.md)
 
 ![sMMC-40M resource overview](assets/dataset.png)
 
@@ -38,13 +38,7 @@ whole-organism, and xenograft categories; they are not 23 anatomical organs.
   intervals and cross-acquisition validation, and historical Xenium results.
 - Small reading examples and an offline synthetic benchmark demo.
 
-**Data availability:** this is the public **code, documentation, and results**
-repository. The approximately 932 GB complete local data version and the full
-benchmark caches have been frozen and checked, but **have not been uploaded to a
-public data host**. There is no announced Hugging Face dataset ID yet. Raw images,
-counts, masks, embeddings, prediction arrays, and model weights are not stored in
-Git. The complete data-side package is required for exact experimental replay.
-[Availability and package requirements](docs/data.md#availability).
+Download all 124 acquisitions or select one sample from [sMCC40M on Hugging Face](https://huggingface.co/datasets/zhang-lab/sMCC40M). The data card includes commands for a complete acquisition or just its H5AD matrix, with examples for Visium HD (HD-002) and Xenium (HHDX011). The [frozen release](https://huggingface.co/datasets/zhang-lab/sMCC40M/tree/0f6f6577b0da8e00d2624e834aa6efc1c651b1ad) includes benchmark inputs, checksums, and [per-sample licensing and attribution](https://huggingface.co/datasets/zhang-lab/sMCC40M/tree/main/licensing).
 
 ## Quick start
 

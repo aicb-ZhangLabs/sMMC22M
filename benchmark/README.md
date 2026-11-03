@@ -31,7 +31,7 @@ runtime. `environment.yml` specifies the native image-reader runtime.
 ## Exact asset package
 
 For biological replay or refitting, obtain the **complete frozen data-side
-`benchmark/` package**. A public download URL has not yet been announced; see
+`benchmark/` package**. Download the [benchmark directory](https://huggingface.co/datasets/zhang-lab/sMCC40M/tree/0f6f6577b0da8e00d2624e834aa6efc1c651b1ad/benchmark). See
 [availability](../docs/data.md#availability). It must contain:
 
 ```text
