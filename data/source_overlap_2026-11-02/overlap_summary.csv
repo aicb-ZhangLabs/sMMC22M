@@ -1,0 +1,5 @@
+overlap_group,HD_acquisitions,Xenium_acquisitions,acquisitions,gene_positive_observations_in_our_release
+HEST_only,3,36,39,13317654
+STimage_only,1,0,1,483460
+both,3,0,3,565951
+no_catalogue_match,46,35,81,24105127

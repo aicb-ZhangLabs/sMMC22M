@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "reference": "HEST-1k NeurIPS 2024 publication cohort and STimage-1K4M",
+  "verified_acquisition_IDs": 124,
+  "verified_record_pairs": 46,
+  "publication_HEST_matches": 42,
+  "STimage_matches": 4,
+  "both": 3,
+  "either": 43,
+  "neither": 81,
+  "method": "Compared every acquisition and its external IDs with the independently verified publication-cohort mapping. Recounted the four disjoint groups and their frozen gene-positive records using standard-library CSV."
+}

@@ -1,0 +1,40 @@
+{
+  "audit_date": "2026-11-02",
+  "release_version": "2026-10-28",
+  "unit": "molecular acquisition / capture area / Xenium ROI; not donor, organ, study or processed cell",
+  "HEST": {
+    "reference": "NeurIPS 2024 publication cohort, Figure 1a",
+    "catalogue_version": "v1.1.0",
+    "metadata_records": 1229,
+    "relevant_assay_records": 75,
+    "metadata_url": "https://github.com/mahmoodlab/HEST/blob/56b242670f4bd27e30fd2438a2aafc414cae1460/assets/HEST_v1_1_0.csv",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/60a899cc31f763be0bde781a75e04458-Abstract-Datasets_and_Benchmarks_Track.html",
+    "native_evidence_revision": "7e8d5a0b0aace41d8c8ec0f6ecea80e4ad2a61ec"
+  },
+  "STimage": {
+    "metadata_version": "meta_all_gene02122025.csv",
+    "metadata_records": 1149,
+    "github_revision": "56b6fc36d313e161a031fb86a15dd9e293fde9f2",
+    "hub_revision": "b2073c6e8bb7e6d8dfd15c0db6134ba4f2a8a84f",
+    "HD_records": 4,
+    "Xenium_records": 0,
+    "coordinate_file_sha256": {
+      "Human_Colon_10X_03252024_VisiumHD_coord.csv": "b072ba6f9389eb03060d164632a9f55ca7f3a943913b75d4fdfad19f290fd44c",
+      "Human_Lung_10X_03292024_VisiumHD_coord.csv": "4ac9e643eeb3df93c08530e227b96fa0868fe220e7fd361bc4872f032bba79b7",
+      "Mouse_Brain_10X_03292024_VIsiumHD_coord.csv": "97b1cca542e6a5bb0f75f66483da8884b383bcf7a4920d1fe8c05b01cc681def",
+      "Mouse_Intenstine_10X_03252024_VisiumHD_coord.csv": "b61f8ff77269543506e25f38a2f9c1bab7c56b50bf9ae4243d09b0db2e4821bb"
+    }
+  },
+  "input_sha256": {
+    "release_samples.csv": "b2566ae517c79e0574dc62b3ab95a3999b5e4fbdf31408daf64cfc62ccd647be",
+    "sample_inventory.csv": "bc532dcf85329e538bc1b2b16e05dab4e4495d5d129aed1bf116a3530da7efc1",
+    "sample_versions.csv": "cfda87c8c3cb43ec89223cedce9e4c057bd50c4b0cefc67ac1d88f532c809be1",
+    "HEST_v1_1_0.csv": "61367f7991591550672cd214aa9d70263a65aff751a722ccb513dcab439110c5",
+    "STimage_meta_all_gene02122025.csv": "5a548d26fbff161d962227c1cbe94645e20025f1ba4411da2e3d9f497cd7b5a0",
+    "hest_metadata_all.json": "0596f26b8499f1b7d9cc3f54c4fc55fa0a871112fed0f65ed2e4fc27d66e850f"
+  },
+  "negative_status": "No acquisition match found in the specified catalogues. Not a claim of first-ever data generation, donor independence, or absence from every external resource.",
+  "observation_count_scope": "Counts are our frozen gene-positive cell/nucleus observations associated with shared-source acquisitions; they are not counts of identical cells or target vectors present in HEST/STimage.",
+  "release_manifest_sha256": "f4f20ea1a5acfe660f1988184337921a92e1f5fcb519609324bfb921cfbda460",
+  "release_samples_parquet_sha256": "3c95d4d7e0eb6ffe5c9074d0571083da40b36de221da76b9d8f5151e1b81ebcf"
+}

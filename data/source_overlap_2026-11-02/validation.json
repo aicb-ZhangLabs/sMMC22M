@@ -1,0 +1,1233 @@
+{
+  "acquisitions": 124,
+  "gene_positive_observations": 38472192,
+  "hest_matched_acquisitions": 42,
+  "stimage_matched_acquisitions": 4,
+  "matched_either_acquisitions": 43,
+  "hest_matching_catalogue_records": 42,
+  "unresolved_candidates_among_no_catalogue_match": 0,
+  "stimage_coordinate_checks": [
+    {
+      "sample_id": "HD-011",
+      "stimage_slide": "Mouse_Brain_10X_03292024_VIsiumHD",
+      "native_coordinate_file": "tissue_positions.parquet",
+      "native_coordinate_sha256": "a566fdc316d2d13cd89e67c56f2346c237a0fd9e48e13b90c23e7837b0ea4f1d",
+      "stimage_rows": 393543,
+      "native_in_tissue_rows": 393543,
+      "matched_barcodes": 393543,
+      "all_matched_in_tissue": true,
+      "native_barcode_set_equal": true,
+      "max_abs_coordinate_error_px": 8.579682215936941,
+      "rms_coordinate_error_px": 7.871385409348848,
+      "nearest_geometry_candidates": [
+        {
+          "sample_id": "HD-011",
+          "median_error_px": 11.122002676737239,
+          "max_error_px": 11.13509659004059
+        },
+        {
+          "sample_id": "HD-030",
+          "median_error_px": 406.96494436141734,
+          "max_error_px": 468.18625157929006
+        },
+        {
+          "sample_id": "HD-014",
+          "median_error_px": 455.4105488356945,
+          "max_error_px": 813.8620715539209
+        }
+      ],
+      "current_analysis_version": "4.0.1",
+      "original_provider_report_hest_id": "TENX131",
+      "original_provider_sample_id": "Visium_HD_Mouse_Brain",
+      "original_report_8um_tissue_bins": 393543,
+      "identity_method": "original_source_sample_id_and_tissue_bin_fingerprint_with_reanalysis_geometry_check",
+      "identity_evidence": "Original provider Sample ID Visium_HD_Mouse_Brain reports exactly 393543 8um tissue bins, matching STimage. All 393543 barcode IDs exist in current output; nearest among 53 native image-coordinate frames is HD-011. Current Space Ranger 4.0.1 differs from STimage original output (maximum coordinate difference 8.579682 px; tissue barcode set identical: True). Official source aliases retain the same physical acquisition.",
+      "identity_confirmed": true
+    },
+    {
+      "sample_id": "HD-022",
+      "stimage_slide": "Mouse_Intenstine_10X_03252024_VisiumHD",
+      "native_coordinate_file": "tissue_positions.parquet",
+      "native_coordinate_sha256": "b7446d496f24c90ad7e177b0b8040389d27018a108b700749cc5e4ad11aba9c3",
+      "stimage_rows": 351817,
+      "native_in_tissue_rows": 351817,
+      "matched_barcodes": 351817,
+      "all_matched_in_tissue": true,
+      "native_barcode_set_equal": true,
+      "max_abs_coordinate_error_px": 3.637978807091713e-12,
+      "rms_coordinate_error_px": 8.782539734381179e-13,
+      "nearest_geometry_candidates": [
+        {
+          "sample_id": "HD-022",
+          "median_error_px": 0.00015212332021528495,
+          "max_error_px": 0.0005181497876983771
+        },
+        {
+          "sample_id": "HD-013",
+          "median_error_px": 216.28830981298626,
+          "max_error_px": 300.38664965406446
+        },
+        {
+          "sample_id": "HD-037",
+          "median_error_px": 279.3778475812531,
+          "max_error_px": 372.0748078188015
+        }
+      ],
+      "current_analysis_version": "3.0.0",
+      "identity_method": "complete_native_8um_barcode_and_coordinate_identity",
+      "identity_evidence": "All 351817 tissue barcodes and native image coordinates match official 10x output to <0.001 pixel.",
+      "identity_confirmed": true
+    },
+    {
+      "sample_id": "HD-028",
+      "stimage_slide": "Human_Lung_10X_03292024_VisiumHD",
+      "native_coordinate_file": "tissue_positions.parquet",
+      "native_coordinate_sha256": "04a0e9eac965552226ae9c0881831cd6963df79d714293c5a6b429e92cdf926e",
+      "stimage_rows": 605471,
+      "native_in_tissue_rows": 605471,
+      "matched_barcodes": 605471,
+      "all_matched_in_tissue": true,
+      "native_barcode_set_equal": true,
+      "max_abs_coordinate_error_px": 3.637978807091713e-12,
+      "rms_coordinate_error_px": 1.0066606747453884e-12,
+      "nearest_geometry_candidates": [
+        {
+          "sample_id": "HD-028",
+          "median_error_px": 0.00028533310608036696,
+          "max_error_px": 0.0005629903301528413
+        },
+        {
+          "sample_id": "HD-045",
+          "median_error_px": 1438.9660707382036,
+          "max_error_px": 2983.4928863055115
+        },
+        {
+          "sample_id": "HD-005",
+          "median_error_px": 2914.133403032565,
+          "max_error_px": 4938.636992223516
+        }
+      ],
+      "current_analysis_version": "3.0.0",
+      "identity_method": "complete_native_8um_barcode_and_coordinate_identity",
+      "identity_evidence": "All 605471 tissue barcodes and native image coordinates match official 10x output to <0.001 pixel.",
+      "identity_confirmed": true
+    },
+    {
+      "sample_id": "HD-043",
+      "stimage_slide": "Human_Colon_10X_03252024_VisiumHD",
+      "native_coordinate_file": "tissue_positions.parquet",
+      "native_coordinate_sha256": "49d1fd48007c88911c843acf932adcc5819ceb5c3f7b8d00183b18844927330b",
+      "stimage_rows": 545913,
+      "native_in_tissue_rows": 516880,
+      "matched_barcodes": 545913,
+      "all_matched_in_tissue": false,
+      "native_barcode_set_equal": false,
+      "max_abs_coordinate_error_px": 16.815638302849266,
+      "rms_coordinate_error_px": 6.117272307501796,
+      "nearest_geometry_candidates": [
+        {
+          "sample_id": "HD-043",
+          "median_error_px": 7.481580369621712,
+          "max_error_px": 17.323137641993522
+        },
+        {
+          "sample_id": "HD-003",
+          "median_error_px": 18768.090133729573,
+          "max_error_px": 19003.651102187156
+        },
+        {
+          "sample_id": "HD-049",
+          "median_error_px": 19456.629984271327,
+          "max_error_px": 42495.14417316102
+        }
+      ],
+      "current_analysis_version": "4.0.1",
+      "original_provider_report_hest_id": "TENX128",
+      "original_provider_sample_id": "Visium_HD_Human_Colon_Cancer",
+      "original_report_8um_tissue_bins": 545913,
+      "identity_method": "original_source_sample_id_and_tissue_bin_fingerprint_with_reanalysis_geometry_check",
+      "identity_evidence": "Original provider Sample ID Visium_HD_Human_Colon_Cancer reports exactly 545913 8um tissue bins, matching STimage. All 545913 barcode IDs exist in current output; nearest among 53 native image-coordinate frames is HD-043. Current Space Ranger 4.0.1 differs from STimage original output (maximum coordinate difference 16.815638 px; tissue barcode set identical: False). Official source aliases retain the same physical acquisition.",
+      "identity_confirmed": true
+    }
+  ],
+  "extra_hest_image_check": {
+    "sample_id": "FFMB028",
+    "hest_id": "TENX159",
+    "source_image": "Xenium/samples/FFMB028/images/FFMB028.btf",
+    "full_resolution_shape": [
+      24689,
+      17051,
+      3
+    ],
+    "hest_thumbnail_shape": [
+      1000,
+      691,
+      3
+    ],
+    "thumbnail_sha256": "47d7aaca4cf5a5921bb176ce622c9f802a4a54a78b5c2c01f4c4a5a054a07a32",
+    "comparison": "64 fixed systematic native 512px tiles; RGB block means compared with corresponding regions of author-provided full-slide thumbnail",
+    "blocks": 64,
+    "tissue_blocks": 64,
+    "rgb_mean_correlation": 0.9995318513950092,
+    "rgb_mean_rmse_0_255": 0.8149283098153665,
+    "permuted_block_rmse_0_255": 23.856827418158623,
+    "same_image_confirmed": true,
+    "scope": "image-content confirmation accompanies identical provider title, species, preservation and dimensions; not an independent donor assertion",
+    "block_statistics": [
+      {
+        "native_xy": [
+          512,
+          512
+        ],
+        "native_mean_rgb": [
+          232.67891311645508,
+          231.86993408203125,
+          239.51422500610352
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.9825,
+          231.9825,
+          237.9825
+        ]
+      },
+      {
+        "native_xy": [
+          2560,
+          512
+        ],
+        "native_mean_rgb": [
+          232.6135482788086,
+          231.81557083129883,
+          239.53119659423828
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.7825,
+          231.6325,
+          238.5025
+        ]
+      },
+      {
+        "native_xy": [
+          5120,
+          512
+        ],
+        "native_mean_rgb": [
+          232.55998611450195,
+          231.54934310913086,
+          239.05784606933594
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.6261904761905,
+          231.6261904761905,
+          237.6261904761905
+        ]
+      },
+      {
+        "native_xy": [
+          7168,
+          512
+        ],
+        "native_mean_rgb": [
+          232.53042602539062,
+          231.57365798950195,
+          239.04904174804688
+        ],
+        "hest_thumbnail_mean_rgb": [
+          233.10476190476192,
+          231.64523809523808,
+          238.32380952380953
+        ]
+      },
+      {
+        "native_xy": [
+          9728,
+          512
+        ],
+        "native_mean_rgb": [
+          219.76037979125977,
+          198.79126358032227,
+          228.25676345825195
+        ],
+        "hest_thumbnail_mean_rgb": [
+          218.96428571428572,
+          198.38333333333333,
+          228.29761904761904
+        ]
+      },
+      {
+        "native_xy": [
+          11776,
+          512
+        ],
+        "native_mean_rgb": [
+          225.83972549438477,
+          218.08581161499023,
+          233.69171142578125
+        ],
+        "hest_thumbnail_mean_rgb": [
+          226.9904761904762,
+          219.65,
+          233.55
+        ]
+      },
+      {
+        "native_xy": [
+          14336,
+          512
+        ],
+        "native_mean_rgb": [
+          225.84993743896484,
+          207.14847564697266,
+          232.46777725219727
+        ],
+        "hest_thumbnail_mean_rgb": [
+          225.6642857142857,
+          206.43571428571428,
+          231.68333333333334
+        ]
+      },
+      {
+        "native_xy": [
+          16384,
+          512
+        ],
+        "native_mean_rgb": [
+          232.55470657348633,
+          230.10226440429688,
+          239.09239959716797
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.47857142857143,
+          229.86428571428573,
+          237.84761904761905
+        ]
+      },
+      {
+        "native_xy": [
+          512,
+          4096
+        ],
+        "native_mean_rgb": [
+          232.84766387939453,
+          232.10443878173828,
+          239.8030776977539
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.96190476190475,
+          231.96190476190475,
+          237.96190476190475
+        ]
+      },
+      {
+        "native_xy": [
+          2560,
+          4096
+        ],
+        "native_mean_rgb": [
+          228.97414016723633,
+          189.58787536621094,
+          231.1684455871582
+        ],
+        "hest_thumbnail_mean_rgb": [
+          228.11904761904762,
+          189.03333333333333,
+          231.10714285714286
+        ]
+      },
+      {
+        "native_xy": [
+          5120,
+          4096
+        ],
+        "native_mean_rgb": [
+          225.59993362426758,
+          183.13477325439453,
+          228.9310073852539
+        ],
+        "hest_thumbnail_mean_rgb": [
+          224.79818594104307,
+          181.87301587301587,
+          227.6281179138322
+        ]
+      },
+      {
+        "native_xy": [
+          7168,
+          4096
+        ],
+        "native_mean_rgb": [
+          227.19660186767578,
+          172.39979553222656,
+          226.6434669494629
+        ],
+        "hest_thumbnail_mean_rgb": [
+          227.57823129251702,
+          171.5827664399093,
+          226.25850340136054
+        ]
+      },
+      {
+        "native_xy": [
+          9728,
+          4096
+        ],
+        "native_mean_rgb": [
+          225.9275016784668,
+          190.48166275024414,
+          231.01748657226562
+        ],
+        "hest_thumbnail_mean_rgb": [
+          225.57369614512473,
+          191.5328798185941,
+          230.48299319727892
+        ]
+      },
+      {
+        "native_xy": [
+          11776,
+          4096
+        ],
+        "native_mean_rgb": [
+          224.71879959106445,
+          177.81922149658203,
+          227.51604843139648
+        ],
+        "hest_thumbnail_mean_rgb": [
+          224.60090702947846,
+          177.82539682539684,
+          227.42403628117913
+        ]
+      },
+      {
+        "native_xy": [
+          14336,
+          4096
+        ],
+        "native_mean_rgb": [
+          225.46566772460938,
+          166.93160247802734,
+          224.34424209594727
+        ],
+        "hest_thumbnail_mean_rgb": [
+          225.73015873015873,
+          168.06349206349208,
+          224.19274376417235
+        ]
+      },
+      {
+        "native_xy": [
+          16384,
+          4096
+        ],
+        "native_mean_rgb": [
+          223.73070907592773,
+          196.09076690673828,
+          228.68704223632812
+        ],
+        "hest_thumbnail_mean_rgb": [
+          223.51473922902494,
+          195.71428571428572,
+          227.8798185941043
+        ]
+      },
+      {
+        "native_xy": [
+          512,
+          7168
+        ],
+        "native_mean_rgb": [
+          228.3165397644043,
+          188.00835418701172,
+          230.80256271362305
+        ],
+        "hest_thumbnail_mean_rgb": [
+          228.9595238095238,
+          187.14285714285714,
+          231.10714285714286
+        ]
+      },
+      {
+        "native_xy": [
+          2560,
+          7168
+        ],
+        "native_mean_rgb": [
+          222.63736724853516,
+          176.50865936279297,
+          227.48939895629883
+        ],
+        "hest_thumbnail_mean_rgb": [
+          221.60714285714286,
+          176.32380952380953,
+          225.9404761904762
+        ]
+      },
+      {
+        "native_xy": [
+          5120,
+          7168
+        ],
+        "native_mean_rgb": [
+          228.86308670043945,
+          170.1178207397461,
+          226.23981475830078
+        ],
+        "hest_thumbnail_mean_rgb": [
+          227.67573696145124,
+          170.04988662131518,
+          225.43083900226756
+        ]
+      },
+      {
+        "native_xy": [
+          7168,
+          7168
+        ],
+        "native_mean_rgb": [
+          225.73566055297852,
+          163.09458923339844,
+          223.24735260009766
+        ],
+        "hest_thumbnail_mean_rgb": [
+          224.65532879818593,
+          162.47845804988663,
+          221.9297052154195
+        ]
+      },
+      {
+        "native_xy": [
+          9728,
+          7168
+        ],
+        "native_mean_rgb": [
+          228.28472900390625,
+          157.73972702026367,
+          221.18628311157227
+        ],
+        "hest_thumbnail_mean_rgb": [
+          228.21768707482994,
+          157.77777777777777,
+          220.1360544217687
+        ]
+      },
+      {
+        "native_xy": [
+          11776,
+          7168
+        ],
+        "native_mean_rgb": [
+          226.7878189086914,
+          160.4708251953125,
+          221.95178604125977
+        ],
+        "hest_thumbnail_mean_rgb": [
+          225.99319727891157,
+          159.51927437641723,
+          221.0702947845805
+        ]
+      },
+      {
+        "native_xy": [
+          14336,
+          7168
+        ],
+        "native_mean_rgb": [
+          224.05397415161133,
+          159.4815444946289,
+          221.09723663330078
+        ],
+        "hest_thumbnail_mean_rgb": [
+          223.69160997732428,
+          160.29931972789115,
+          221.71655328798187
+        ]
+      },
+      {
+        "native_xy": [
+          16384,
+          7168
+        ],
+        "native_mean_rgb": [
+          221.33658981323242,
+          174.08261108398438,
+          221.8739128112793
+        ],
+        "hest_thumbnail_mean_rgb": [
+          220.7482993197279,
+          173.54648526077096,
+          221.4716553287982
+        ]
+      },
+      {
+        "native_xy": [
+          512,
+          10752
+        ],
+        "native_mean_rgb": [
+          229.56696319580078,
+          187.02858352661133,
+          231.3046989440918
+        ],
+        "hest_thumbnail_mean_rgb": [
+          229.10238095238094,
+          185.9142857142857,
+          230.5690476190476
+        ]
+      },
+      {
+        "native_xy": [
+          2560,
+          10752
+        ],
+        "native_mean_rgb": [
+          225.23294830322266,
+          172.47202682495117,
+          226.94257736206055
+        ],
+        "hest_thumbnail_mean_rgb": [
+          224.6095238095238,
+          172.77142857142857,
+          227.03571428571428
+        ]
+      },
+      {
+        "native_xy": [
+          5120,
+          10752
+        ],
+        "native_mean_rgb": [
+          228.35269165039062,
+          164.677734375,
+          224.3288345336914
+        ],
+        "hest_thumbnail_mean_rgb": [
+          228.31972789115648,
+          164.70521541950114,
+          224.718820861678
+        ]
+      },
+      {
+        "native_xy": [
+          7168,
+          10752
+        ],
+        "native_mean_rgb": [
+          225.14504623413086,
+          166.39866256713867,
+          224.80329513549805
+        ],
+        "hest_thumbnail_mean_rgb": [
+          223.1814058956916,
+          165.55555555555554,
+          223.64172335600907
+        ]
+      },
+      {
+        "native_xy": [
+          9728,
+          10752
+        ],
+        "native_mean_rgb": [
+          222.73262786865234,
+          148.47611236572266,
+          215.70736694335938
+        ],
+        "hest_thumbnail_mean_rgb": [
+          223.30612244897958,
+          149.68253968253967,
+          215.6439909297052
+        ]
+      },
+      {
+        "native_xy": [
+          11776,
+          10752
+        ],
+        "native_mean_rgb": [
+          220.5374870300293,
+          150.89566802978516,
+          216.5144271850586
+        ],
+        "hest_thumbnail_mean_rgb": [
+          218.76190476190476,
+          149.69160997732428,
+          215.12698412698413
+        ]
+      },
+      {
+        "native_xy": [
+          14336,
+          10752
+        ],
+        "native_mean_rgb": [
+          225.91900253295898,
+          164.8971290588379,
+          223.29641342163086
+        ],
+        "hest_thumbnail_mean_rgb": [
+          226.0612244897959,
+          165.16326530612244,
+          223.6439909297052
+        ]
+      },
+      {
+        "native_xy": [
+          16384,
+          10752
+        ],
+        "native_mean_rgb": [
+          220.5866470336914,
+          166.70993423461914,
+          219.95271682739258
+        ],
+        "hest_thumbnail_mean_rgb": [
+          220.38321995464852,
+          167.70521541950114,
+          220.43537414965985
+        ]
+      },
+      {
+        "native_xy": [
+          512,
+          13824
+        ],
+        "native_mean_rgb": [
+          231.60152053833008,
+          229.8391227722168,
+          238.6891326904297
+        ],
+        "hest_thumbnail_mean_rgb": [
+          231.78333333333333,
+          229.9952380952381,
+          239.95714285714286
+        ]
+      },
+      {
+        "native_xy": [
+          2560,
+          13824
+        ],
+        "native_mean_rgb": [
+          223.65646743774414,
+          174.32257843017578,
+          227.40930557250977
+        ],
+        "hest_thumbnail_mean_rgb": [
+          222.42857142857142,
+          173.9904761904762,
+          226.55714285714285
+        ]
+      },
+      {
+        "native_xy": [
+          5120,
+          13824
+        ],
+        "native_mean_rgb": [
+          223.36020278930664,
+          165.45121383666992,
+          223.99223709106445
+        ],
+        "hest_thumbnail_mean_rgb": [
+          223.88888888888889,
+          166.00907029478458,
+          224.78231292517006
+        ]
+      },
+      {
+        "native_xy": [
+          7168,
+          13824
+        ],
+        "native_mean_rgb": [
+          213.34724044799805,
+          160.02754974365234,
+          219.22861862182617
+        ],
+        "hest_thumbnail_mean_rgb": [
+          212.8390022675737,
+          159.52380952380952,
+          218.1814058956916
+        ]
+      },
+      {
+        "native_xy": [
+          9728,
+          13824
+        ],
+        "native_mean_rgb": [
+          227.32316970825195,
+          167.11371231079102,
+          225.30199813842773
+        ],
+        "hest_thumbnail_mean_rgb": [
+          226.22222222222223,
+          166.0612244897959,
+          224.0793650793651
+        ]
+      },
+      {
+        "native_xy": [
+          11776,
+          13824
+        ],
+        "native_mean_rgb": [
+          226.94365692138672,
+          161.06793594360352,
+          222.59308242797852
+        ],
+        "hest_thumbnail_mean_rgb": [
+          225.55555555555554,
+          161.55555555555554,
+          222.1609977324263
+        ]
+      },
+      {
+        "native_xy": [
+          14336,
+          13824
+        ],
+        "native_mean_rgb": [
+          224.6457977294922,
+          166.41725540161133,
+          224.05809783935547
+        ],
+        "hest_thumbnail_mean_rgb": [
+          224.24716553287982,
+          166.04988662131518,
+          223.2358276643991
+        ]
+      },
+      {
+        "native_xy": [
+          16384,
+          13824
+        ],
+        "native_mean_rgb": [
+          220.76396942138672,
+          167.66235733032227,
+          219.10771560668945
+        ],
+        "hest_thumbnail_mean_rgb": [
+          220.21768707482994,
+          167.95011337868482,
+          219.79365079365078
+        ]
+      },
+      {
+        "native_xy": [
+          512,
+          17408
+        ],
+        "native_mean_rgb": [
+          231.73513412475586,
+          229.39142608642578,
+          238.4722671508789
+        ],
+        "hest_thumbnail_mean_rgb": [
+          231.4142857142857,
+          229.6238095238095,
+          238.31428571428572
+        ]
+      },
+      {
+        "native_xy": [
+          2560,
+          17408
+        ],
+        "native_mean_rgb": [
+          229.09222412109375,
+          193.46412658691406,
+          232.26466369628906
+        ],
+        "hest_thumbnail_mean_rgb": [
+          228.68333333333334,
+          193.05238095238096,
+          232.33809523809524
+        ]
+      },
+      {
+        "native_xy": [
+          5120,
+          17408
+        ],
+        "native_mean_rgb": [
+          223.06509017944336,
+          170.39511489868164,
+          225.3490104675293
+        ],
+        "hest_thumbnail_mean_rgb": [
+          221.3673469387755,
+          169.76190476190476,
+          224.05215419501133
+        ]
+      },
+      {
+        "native_xy": [
+          7168,
+          17408
+        ],
+        "native_mean_rgb": [
+          223.3494987487793,
+          159.65432357788086,
+          221.43809127807617
+        ],
+        "hest_thumbnail_mean_rgb": [
+          222.03174603174602,
+          158.52607709750566,
+          219.91609977324262
+        ]
+      },
+      {
+        "native_xy": [
+          9728,
+          17408
+        ],
+        "native_mean_rgb": [
+          232.88682174682617,
+          176.70354843139648,
+          229.42736053466797
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.56235827664398,
+          176.6281179138322,
+          230.40816326530611
+        ]
+      },
+      {
+        "native_xy": [
+          11776,
+          17408
+        ],
+        "native_mean_rgb": [
+          230.7560691833496,
+          166.60768508911133,
+          224.86842346191406
+        ],
+        "hest_thumbnail_mean_rgb": [
+          230.10204081632654,
+          166.26984126984127,
+          223.75283446712018
+        ]
+      },
+      {
+        "native_xy": [
+          14336,
+          17408
+        ],
+        "native_mean_rgb": [
+          222.85176467895508,
+          167.2522964477539,
+          223.9217529296875
+        ],
+        "hest_thumbnail_mean_rgb": [
+          222.92290249433105,
+          167.3764172335601,
+          223.3718820861678
+        ]
+      },
+      {
+        "native_xy": [
+          16384,
+          17408
+        ],
+        "native_mean_rgb": [
+          225.47343826293945,
+          201.96540069580078,
+          230.68247985839844
+        ],
+        "hest_thumbnail_mean_rgb": [
+          225.36054421768708,
+          201.44444444444446,
+          229.87755102040816
+        ]
+      },
+      {
+        "native_xy": [
+          512,
+          20480
+        ],
+        "native_mean_rgb": [
+          232.61902236938477,
+          231.61928176879883,
+          239.76102447509766
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.74,
+          231.3025,
+          239.715
+        ]
+      },
+      {
+        "native_xy": [
+          2560,
+          20480
+        ],
+        "native_mean_rgb": [
+          232.5796890258789,
+          231.5863265991211,
+          239.69007873535156
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.9,
+          231.845,
+          238.22
+        ]
+      },
+      {
+        "native_xy": [
+          5120,
+          20480
+        ],
+        "native_mean_rgb": [
+          228.12906646728516,
+          181.12055587768555,
+          227.00203323364258
+        ],
+        "hest_thumbnail_mean_rgb": [
+          228.42857142857142,
+          182.68333333333334,
+          226.58333333333334
+        ]
+      },
+      {
+        "native_xy": [
+          7168,
+          20480
+        ],
+        "native_mean_rgb": [
+          220.00454711914062,
+          164.50120544433594,
+          222.71642303466797
+        ],
+        "hest_thumbnail_mean_rgb": [
+          220.0952380952381,
+          163.7547619047619,
+          223.41190476190476
+        ]
+      },
+      {
+        "native_xy": [
+          9728,
+          20480
+        ],
+        "native_mean_rgb": [
+          224.7281379699707,
+          177.33069229125977,
+          227.8414077758789
+        ],
+        "hest_thumbnail_mean_rgb": [
+          225.75238095238095,
+          179.51904761904763,
+          229.1642857142857
+        ]
+      },
+      {
+        "native_xy": [
+          11776,
+          20480
+        ],
+        "native_mean_rgb": [
+          221.5097885131836,
+          167.97142791748047,
+          223.88086700439453
+        ],
+        "hest_thumbnail_mean_rgb": [
+          219.33095238095237,
+          167.6,
+          222.48095238095237
+        ]
+      },
+      {
+        "native_xy": [
+          14336,
+          20480
+        ],
+        "native_mean_rgb": [
+          222.62316131591797,
+          161.91498947143555,
+          221.9031524658203
+        ],
+        "hest_thumbnail_mean_rgb": [
+          222.2357142857143,
+          161.84047619047618,
+          221.27380952380952
+        ]
+      },
+      {
+        "native_xy": [
+          16384,
+          20480
+        ],
+        "native_mean_rgb": [
+          212.01348114013672,
+          166.83726501464844,
+          218.48784255981445
+        ],
+        "hest_thumbnail_mean_rgb": [
+          212.05714285714285,
+          168.80714285714285,
+          218.5
+        ]
+      },
+      {
+        "native_xy": [
+          512,
+          24064
+        ],
+        "native_mean_rgb": [
+          232.5543670654297,
+          231.78115844726562,
+          239.83162689208984
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.71,
+          231.4775,
+          240.1625
+        ]
+      },
+      {
+        "native_xy": [
+          2560,
+          24064
+        ],
+        "native_mean_rgb": [
+          232.37893676757812,
+          231.33343887329102,
+          239.72979354858398
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.2375,
+          231.1475,
+          241.1375
+        ]
+      },
+      {
+        "native_xy": [
+          5120,
+          24064
+        ],
+        "native_mean_rgb": [
+          232.54261016845703,
+          231.74896240234375,
+          239.4586296081543
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.8,
+          231.72142857142856,
+          238.40714285714284
+        ]
+      },
+      {
+        "native_xy": [
+          7168,
+          24064
+        ],
+        "native_mean_rgb": [
+          232.65571975708008,
+          231.9382438659668,
+          239.5329246520996
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.94761904761904,
+          231.94761904761904,
+          237.94761904761904
+        ]
+      },
+      {
+        "native_xy": [
+          9728,
+          24064
+        ],
+        "native_mean_rgb": [
+          232.85623168945312,
+          231.7458610534668,
+          239.45136260986328
+        ],
+        "hest_thumbnail_mean_rgb": [
+          232.67857142857142,
+          231.67857142857142,
+          237.67857142857142
+        ]
+      },
+      {
+        "native_xy": [
+          11776,
+          24064
+        ],
+        "native_mean_rgb": [
+          231.30586624145508,
+          228.76102447509766,
+          237.80931854248047
+        ],
+        "hest_thumbnail_mean_rgb": [
+          231.89761904761906,
+          228.65238095238095,
+          237.8
+        ]
+      },
+      {
+        "native_xy": [
+          14336,
+          24064
+        ],
+        "native_mean_rgb": [
+          225.13345336914062,
+          195.0773582458496,
+          229.78621673583984
+        ],
+        "hest_thumbnail_mean_rgb": [
+          225.38809523809525,
+          195.2547619047619,
+          229.46666666666667
+        ]
+      },
+      {
+        "native_xy": [
+          16384,
+          24064
+        ],
+        "native_mean_rgb": [
+          233.18564987182617,
+          232.68904876708984,
+          240.01174926757812
+        ],
+        "hest_thumbnail_mean_rgb": [
+          233.50714285714287,
+          232.69285714285715,
+          238.6
+        ]
+      }
+    ]
+  },
+  "summary": [
+    {
+      "overlap_group": "HEST_only",
+      "HD_acquisitions": 3,
+      "Xenium_acquisitions": 36,
+      "acquisitions": 39,
+      "gene_positive_observations_in_our_release": 13317654
+    },
+    {
+      "overlap_group": "STimage_only",
+      "HD_acquisitions": 1,
+      "Xenium_acquisitions": 0,
+      "acquisitions": 1,
+      "gene_positive_observations_in_our_release": 483460
+    },
+    {
+      "overlap_group": "both",
+      "HD_acquisitions": 3,
+      "Xenium_acquisitions": 0,
+      "acquisitions": 3,
+      "gene_positive_observations_in_our_release": 565951
+    },
+    {
+      "overlap_group": "no_catalogue_match",
+      "HD_acquisitions": 46,
+      "Xenium_acquisitions": 35,
+      "acquisitions": 81,
+      "gene_positive_observations_in_our_release": 24105127
+    }
+  ]
+}
